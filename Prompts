@@ -1,0 +1,254 @@
+//I'm developing my final project for CTIS 210: Programming and Computation. The name of the project is bharatantyam calandar. My assigned task is to have my assistant implement just one feature of that project so that I can test it. Implement the following feature as a **I am a Bharatanatyam dancer who has been dancing for over a decade and has completed her arangetram. The goal of this project is to build a single practice planner designed specifically for Bharatanatyam dancers, where you can plan what to practice, practice it inside the same app, and prepare for a performance. The first module is the practice calendar and checklist. Monthly and weekly views, a daily checklist, recurring items (for example, “Tatta adavu every Monday, Wednesday, and Friday”), a streak counter, and a weekly progress view.
+//can you please -  You can ask the coding assistant to put each of the classes (like Planner and PracticeItem) in their own files so that your code will be easier to work with. And change Main to something more meaningful for the app you're developing.- dont do anything else
+//can you fix this bug- I did run into one bug in that the Repeat on prompt would never accept the weekdays I entered. I kept getting the "Use weekday abbreviations message". But the DayOfWeek Java class that you're using doesn't use abbreviations for days; it uses the full name. Once I tried that, it worked. dont do anything else
+//can you make my gui burgandy with a touch of gold?
+//this is the next feature i want to add do not add any thing else-The next is an adavu library. Adavus are grouped by set (Tatta, Natta, Visharu, Tai Tai Tom, and others), each with its jathi syllables and notes. An “Add to calendar” button lets the user choose a date, a speed (first, second, or third kala), and a repetition goal. A thalam trainer module would also be included. A metronome built with the Web Audio API for common talas (Adi, Rupaka, Misra Chapu, Khanda Chapu), with a visual beat counter, clap and wave indicators, speed control, and a loop mode. Clicking a calendar item opens a practice screen with this trainer.
+//here is a aduvu repository that I made integrate it into the aduvu library-# Kalakshetra Adavu Study Guide
+*Adavu families, their sollukattus, and what to remember*
+
+## Read this first
+Sollukattus and the exact number of variations in each adavu differ between schools, between teachers, and even between Kalakshetra generations. The sources I checked agree on the **base sollu of each family** and on the **general order of learning**, but they do not agree on every numbered step. So this guide gives you the reliable framework, with space under the main families to write your own teacher's exact wording for each numbered step. Where your guru's version differs, your guru's version is the right one.
+
+The order of adavus also varies slightly. The sequence below follows the common progression: Tatta, Natta, Visharu, Tatti Mettu, Kuditta Mettu, Tat Tai Ta Ha, Sarikkal, Mandi, Murukku, Teermanam.
+
+## Rules that apply to every adavu
+
+- **Araimandi:** knees turned out, spine tall, weight centered. Hold it from the first beat to the last; never rise in between.
+- **Angashuddham:** clean lines in the whole body: feet, knees, torso, arms, hands, neck, head, eyes.
+- **Layashuddham:** every foot lands exactly on the beat. Practice each step in all three speeds (first, second, third kalam).
+- **Begin on the right side.** Complete the right and left as one pair; one tap on each side counts as one step.
+- **Practice volume:** about 30 repetitions of a step at a time, until the rhythm feels automatic.
+- **Sound matters:** flat taps should land cleanly and together with the sollu, with no dragging or scuffing.
+- **Say the sollu aloud** while dancing it. It is both the rhythm and the memory aid for the steps.
+
+## 1. Tatta Adavu (8 steps)
+**Meaning:** "to strike flat." The first adavu taught; the feet strike the floor flat, alternating, in araimandi.
+
+**Base sollu:** *Tai ya tai hi*
+
+**Known pattern (step 5, as commonly taught):** right foot *tai-ya, tai-hi, tai, tai, tam*, then the same on the left. The *tai-ya* and *tai-hi* taps are slow (two syllables per tap); the final *tai, tai, tam* are quick (one syllable per tap).
+
+[embed: node/25b2e70b-dbb8]
+The lifted foot is highlighted in each frame.
+
+**What to remember:**
+
+- Lift the foot toward the inner thigh before every tap, then strike with the whole sole.
+- Stay in araimandi with legs forming the ayata mandala position.
+- Keep the center line of the body steady; the body does not sway.
+- Hands stay in the position taught for this adavu (check your teacher's hasta).
+
+### Tatta Adavu 1
+
+- **Sollukattu:** *Tai ya tai hi*
+- **Footwork:** a flat tap with the right foot (*tai ya*), then a flat tap with the left (*tai hi*). One tap on each side counts as one step.
+- **Remember:** lift the foot toward the inner thigh before each tap, strike with the whole sole, palms on the waist facing outward, stay in araimandi.
+
+### Tatta Adavu 2
+
+- **Sollukattu:** *Tai ya tai hi Tai ya tai hi*
+- **Footwork: ** two flat taps  with the right foot (*tai ya tai hi*), then two flat taps with the left (Tai ya *tai hi*). Four taps in total counts as one side.
+- **Remember:** same flat-foot rules as Step 1; write what is new here.
+
+### Tatta Adavu 3
+
+- **Sollukattu:** Tai Tai Tam
+- **Footwork: **Three flat taps  with the right foot (Tai Tai Tam), then two flat taps with the left (Tai Tai Tam). Three taps in total counts as one side.
+- **Remember: **Same as all
+
+### Tatta Adavu 4
+
+- **Sollukattu:** Tai Tai Tai Ya Tam
+- **Footwork: **Stamping the feet 4 times alternately.
+- **Remember:**
+
+### Tatta Adavu 5
+
+- **Sollukattu:** Tai ya  Tai ya    Tai Tai Tam
+- **Footwork:** the first two taps are slow (two syllables per tap); the last three (*tai, tai, tam*) are quick (one syllable per tap).
+- **Remember:** keep the quick taps as flat and clear as the slow ones.
+
+### Tatta Adavu 6
+
+- **Sollukattu:** Tai Tai Tam Tai Tai Tam
+- **Footwork: **Stamping the feet thrice then thrice again. There is a small pause between the first three and last three.
+- **Remember:**
+
+### Tatta Adavu 7
+
+- **Sollukattu:** Tai Tai Tat Tat Tai Tai Tam
+- **Footwork: **Stamp the feet twice, then the other foot once then the original feet three more times to make a total of 7 beats
+- **Remember:**
+
+## 2. Natta Adavu (8 steps)
+**Meaning:** "to stretch." The leg extends to the side, the heel strikes, and the foot returns to araimandi.
+
+**Base sollu:** *Tai yum tat tat, tai yum tam* (also written *Tai yum tat ta, tai yum ta ha*)
+
+[embed: node/e0a8fb84-b125]
+The working leg is highlighted; the same movement repeats on the left.
+
+**What to remember:**
+
+- The extension goes sideways, heel strikes the floor, and the line of the leg stays long.
+- The standing leg holds the araimandi; do not let the hip or torso lean with the stretch.
+- Compared with Tatta, the movement now has horizontal reach, so keep the shoulders level.
+- Keep the same center-line discipline you built in Tatta.
+
+### Natta Adavu 1
+
+- **Sollukattu:** *Tai yum tat tat, tai yum tam*
+- **Footwork:** stretch the leg to the side, strike the heel, return to araimandi.
+- **Remember:** the standing leg holds araimandi; the torso does not lean with the stretch.
+
+### Natta Adavu 2
+
+- **Sollukattu:** Tai yum tat tat, tai yum tam, *Tai yum tat tat, tai yum tam*
+- **Footwork: **Double the first one. Do two consequtively on each side
+- **Remember:**
+
+### Natta Adavu 3
+
+- **Sollukattu:** *Tai yum tat tat, tai yum tam, Tai yum tat tat, tai yum tam (for one side)*
+- **Footwork: ** stretch the leg to the side, strike the heel, return to araimandi.  stretch the other leg to the side, strike the heel, return to araimandi. Back tap dit dit thai
+- **Remember:**
+
+### Natta Adavu 4
+
+- **Sollukattu:**  *Tai yum tat tat, tai yum tam, Tai yum tat tat, tai yum tam , * *Tai yum tat tat, tai yum tam, Tai yum tat tat, tai yum tam  For one side*
+- **Footwork: **Double each step of the third
+- **Remember:**
+
+## 3. Visharu Adavu (8 steps)
+**Also called:** Pakka Adavu, Paraval Adavu, Mardita Adavu 
+
+**Base sollu:** *Ta tai tai ta* (also *Tai ha tai hi*)
+
+[embed: node/f452a6e5-cbe9]
+The front foot is highlighted in each crossed frame.
+
+**What to remember:**
+
+- Emphasis on the swastika (crossed-feet) position and the sweeping, side-to-side movement.
+- Dancers sometimes rise on the toes before the heels strike, so keep the soft and loud sounds distinct.
+- The torso stays centered while the feet travel around it.
+
+### Visharu Adavu 1
+
+- **Sollukattu:** *Ta tai tai ta* (add your teacher's exact version)
+- **Footwork:** feet cross into the swastika position and sweep side to side.
+- **Remember:** the torso stays centered while the feet travel around it.
+
+## 4. Tatti Mettu Adavu
+**Meaning:** *tatti* = tap, *mettu* = heel contact with the floor.
+
+**Base sollu:** *Tat tai ta ha, dhit tai ta ha*
+
+**What to remember:**
+
+- Combines the tap of Tatta with a heel strike.
+- The heel contact must be clean and crisp; it is the signature of this adavu.
+- Count the pairs (*tat tai ta ha* then *dhit tai ta ha*) so the two halves feel even.
+
+## 5. Kuditta Mettu Adavu
+**Meaning:** a jump (*kuditta*) onto the toes with the heels striking the ground.
+
+**Base sollu:** *Tai hat tai hi*
+
+[embed: node/41504bb6-b6a6]
+Both feet are highlighted because they work together in this adavu.
+
+**What to remember:**
+
+- Land on the toes, then strike the heels down; the toes stay in contact with the floor.
+- Keep araimandi on every landing; do not let the knees close.
+- Jumps should be small and controlled, with no extra height.
+
+## 6. Tat Tai Ta Ha Adavu (Tatta Kuditta Mettu)
+**Base sollu:** *Tai tai taa haa*
+
+**What to remember:**
+
+- A bridge between the tapping adavus and the jumping ones.
+- Keep the rhythm of the four syllables even, with the last two longer.
+
+## 7. Sarikkal (Sarukkal) Adavu
+**Meaning:** slides or glides.
+
+**Base sollu:** *Tai kat tai hi*
+
+**What to remember:**
+
+- The slide is smooth and continuous; avoid hopping or bouncing.
+- The weight transfer stays inside araimandi.
+- Check that both knees remain turned out throughout the slide.
+
+## 8. Mandi Adavu
+**Meaning:** done in the sitting (mandi) position; the full-sitting posture (muzhumandi) appears here.
+
+**Base sollu:** *Tat tai taa* 
+
+[embed: node/26b8087c-cba7]
+The legs are highlighted in the full-sit position.
+
+**What to remember:**
+
+- Rise and sit smoothly; the descent and ascent take as much control as the footwork.
+- Keep the spine straight in muzhumandi; do not sit back on the heels.
+- Tempo drops are harder here, so stay on the beat in the slow speed.
+
+## 
+
+## 9. Teermanam Adavus (small and big)
+**Role:** the concluding adavus. They are repeated three times and used to end a korvai or an adavu sequence.
+
+**Base sollus:** *Tari kita tom* 
+
+**What to remember:**
+
+- The pattern is performed three times, so the final landing of the third repeat must fall exactly on the sam (the first beat).
+- Count backward from the end of the cycle so the three repeats finish on time.
+- Small teermanams are a single unit; big teermanams join several units, so work out the count before you dance it.
+
+## 
+
+## Quick checklist before you dance any adavu
+
+1. Araimandi set and held?
+2. Starting on the right?
+3. Sollu spoken aloud and matching the foot?
+4. Body lines clean (angashuddham)?
+5. Rhythm exact in all three speeds (layashuddham)?
+6. Finishing cleanly on the samam
+// Intergate this visual for natta aduvu
+![alt text](image.png)
+//can you add a playable visual metronome that shows the beats visally and has adjustment factors for bmp and for what beat interval its it - here are some more guidlines-In Carnatic music and Bharatanatyam, **Nadai** (also called *Gati*) is the **internal subdivision of a single beat**.
+While the *Tala* sets the overarching cycle of hand claps, *Nadai* determines how many equal rhythmic pulses (*matras*) fit inside **each individual beat** (*akshara*). For a Bharatanatyam metronome, *Nadai* controls the sub-clicks or syllables happening between your main Tala markers.
+
+The 5 Nadais
+Just like the *Jatis*, there are five standard *Nadais*, each paired with a specific vocalized syllable pattern (*Solkattu*):
+
+NadaiPulses per BeatStandard Syllables (Solkattu)Musical Feel**Tisra**3*Ta - Ki - Ta*Triplet / Waltz feel**Chatusra**4*Ta - Ka - Di - Mi*Standard even pulse (most common default)**Khanda**5*Ta - Ka - Ta - Ki - Ta*Syncopated 5-pulse grouping (2 + 3)**Misra**7*Ta - Ki - Ta - Ta - Ka - Di - Mi*Asymmetric 7-pulse grouping (3 + 4)**Sankirna**9*Ta - Ka - Di - Mi - Ta - Ka - Ta - Ki - Ta*Complex 9-pulse grouping (4 + 5)
+
+---
+
+How Nadai Works in Your Metronome
+Imagine a dancer practicing **Adi Tala** (8 beats) at a steady 60 BPM (1 main beat per second):
+
+- In **Chatusra Nadai (4)**, the metronome plays **4 sub-pulses** inside every 1-second beat (32 total sub-pulses per 8-beat cycle).
+- If the dancer switches to **Tisra Nadai (3)** without changing the 60 BPM tempo, the hand claps stay at 1 second apart, but the metronome shifts to **3 sub-pulses** per beat (24 total sub-pulses per cycle).
+
+Metronome Design Tips for Nadai
+
+- **Accent the Sub-Groupings:** For longer *Nadais* (5, 7, and 9), dancers feel the rhythm in smaller chunks rather than one long string. Slightly accenting the internal starts—like **Ta**-ka-**Ta**-ki-ta (for 5) or **Ta**-ki-ta-**Ta**-ka-di-mi (for 7)—makes the pulse much easier to follow.
+- **Decouple Nadai from Jati:** A dancer can perform a 4-beat *Laghu* (*Chatusra Jati*) while subdividing every beat into 3 pulses (*Tisra Nadai*). Keeping **Tala/Jati** (macro structure) and **Nadai** (micro subdivision) as two independent controls in your UI gives dancers full flexibility.
+- **Combine Nadai with Kalam (Speed):** When a dancer increases the *Kalam* (speed) inside a specific *Nadai*, the sub-pulses double. For example, in *Chatusra Nadai* (4 pulses/beat), Second Speed (*Mel Kalam*) fits **8 pulses** into a single beat.
+//Refactor the metronome timing engine from a flat linear interval into a hierarchical Carnatic rhythm scheduler:
+1. Anchor on the Main Beat (BPM): Keep the base beat duration fixed at 60 / BPM seconds. Never change the speed of the main beats when changing Nadai or Kalam.
+2. Calculate Sub-Pulses Dynamically: Divide each main beat into N equal sub-pulses, where N = Nadai * Kalam (Nadai is 3, 4, 5, 7, or 9; Kalam is 1, 2, or 4). Each sub-pulse interval must be (60 / BPM) / N seconds.
+3. Use a Two-Layer Event Trigger:
+	• When subPulseIndex === 0 (Start of a main beat): Trigger the Tala gesture sound based on the current beatIndex in the Tala array (e.g., for Adi Tala [clap, finger, finger, finger, clap, wave, clap, wave], play a loud ring on index 0 (Samam), a sharp cymbal on claps, and a soft knock on fingers/waves).
+	• When subPulseIndex > 0 (Internal subdivisions): Play a softer sub-tick sound, with slight volume accents on internal Nadai groupings (e.g., index 0 and 2 for Khanda 5; index 0 and 3 for Misra 7).
+4. Use Lookahead Audio Scheduling: Do not use setInterval directly to trigger audio, as browser drift will ruin the subdivisions. Use a Web Audio API lookahead scheduler (audioContext.currentTime) to schedule sub-pulses ahead of time."
+//get ride of the words clap wave finger but and replace them with numbers do not change anything else
+//in the drop down menu for add practice , change task to other
