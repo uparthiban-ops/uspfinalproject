@@ -13,37 +13,38 @@ import java.time.YearMonth;
 import java.time.format.DateTimeParseException;
 import java.time.format.TextStyle;
 import java.time.temporal.TemporalAdjusters;
+import java.util.ArrayList;
 import java.util.EnumSet;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Locale;
 import java.util.Set;
-import java.util.ArrayList;
 import java.util.concurrent.locks.LockSupport;
-import javax.sound.sampled.AudioSystem;
+
 import javax.sound.sampled.AudioFormat;
+import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.Clip;
 import javax.sound.sampled.LineUnavailableException;
 import javax.swing.BorderFactory;
 import javax.swing.Box;
 import javax.swing.BoxLayout;
+import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JCheckBox;
 import javax.swing.JComboBox;
+import javax.swing.JDialog;
 import javax.swing.JFrame;
-import javax.swing.ImageIcon;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JSpinner;
+import javax.swing.JTextArea;
 import javax.swing.JTextField;
 import javax.swing.SpinnerNumberModel;
 import javax.swing.SwingConstants;
-import javax.swing.JDialog;
-import javax.swing.JTextArea;
-import javax.swing.Timer;
 import javax.swing.SwingUtilities;
+import javax.swing.Timer;
 import javax.swing.border.Border;
 
 public final class PracticePlannerFrame extends JFrame {
@@ -78,7 +79,7 @@ public final class PracticePlannerFrame extends JFrame {
     private LocalDate selectedDate = LocalDate.now();
 
     public PracticePlannerFrame(Planner planner) throws IOException {
-        super("Bharatanatyam Practice Planner");
+        super("Dance Practice Planner");
         this.planner = planner;
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setMinimumSize(new Dimension(900, 650));
